@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ג.י.ל.בון פיתוח בע"מ</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      direction: rtl;
+      text-align: right;
+      margin: 0;
+      padding: 10px;
+      position: relative;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      height: 80px;
+      display: block;
+      margin: 0 auto 10px auto;
+    }
+    nav {
+      background-color: #34495e;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+      color: #1abc9c;
+    }
+    section {
+      padding: 40px;
+      background-color: #f8f8f8;
+      position: relative;
+      z-index: 1;
+    }
+    section ul {
+      list-style: none;
+      padding: 0;
+    }
+    section li::before {
+      content: "✔";
+      margin-left: 10px;
+      color: #27ae60;
+    }
+    .clients, .contact {
+      background-color: #ecf0f1;
+      padding: 40px;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+    footer::before {
+      content: "";
+      background-image: url('logo-gilbon.png');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      opacity: 0.05;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 0;
+    }
+    footer p {
+      position: relative;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo-gilbon.png" alt="לוגו ג.י.ל.בון">
+    <h1>ג.י.ל.בון פיתוח בע"מ</h1>
+    <p>קבלן עבודות פיתוח, תשתיות, מרחבי גינון ונוף</p>
+  </header>
+
+  <nav>
+    <a href="#about">אודות</a>
+    <a href="#services">שירותים</a>
+    <a href="#projects">הפרויקטים שלנו</a>
+    <a href="#clients">לקוחות</a>
+    <a href="#contact">צור קשר</a>
+  </nav>
+
+  <section id="about">
+    <h2>אודות</h2>
+    <p>ג.י.ל.בון פיתוח בע"מ היא חברה משפחתית מובילה בתחום עבודות הפיתוח, התשתיות והגינון המוניציפלי, הפועלת בפריסה רחבה מול מוסדות ציבוריים, קבלנים ראשיים ויזמים פרטיים.</p>
+    <p>החברה נוסדה מתוך מחויבות לאיכות בלתי מתפשרת, אחריות מקצועית גבוהה ויחס אישי לכל לקוח ופרויקט — משלב התכנון ועד למסירה.</p>
+    <p>עם ניסיון מצטבר של שנים, ג.י.ל.בון פיתוח מביאה עמה ידע מעשי נרחב במגוון תחומי פעילות: עבודות עפר, סלילה, פיתוח שטחים ציבוריים, תשתיות מים וניקוז, עבודות חשמל, הקמת חניונים, גדרות, מדרכות, והכנת תשתיות לפרויקטים רחבי היקף.</p>
+    <p>החברה מחזיקה בצי רכבים, כלי צמ"ה וציוד טכנולוגי מתקדם בבעלותה, ומעסיקה עשרות אנשי מקצוע — מהנדסים, מנהלי עבודה, מפעילים מוסמכים ואנשי מנהלה — הפועלים בתיאום מוקפד ובלוחות זמנים מדויקים.</p>
+    <p>ג.י.ל.בון פיתוח מתנהלת על בסיס חוסן פיננסי ויכולת ניהול מוכחת, כוח עובדים יציב, אמין ונאמן. שיתוף פעולה ארוך טווח גם עם חברות הבנייה מהמובילות בארץ.</p>
+  </section>
+
+  <section id="services">
+    <h2>תחומי פעילות</h2>
+    <ul>
+      <li>עבודות עפר ותשתית</li>
+      <li>סלילה ופיתוח שטחים ציבוריים</li>
+      <li>תשתיות מים וניקוז</li>
+      <li>מרחבי גינון ונוף</li>
+      <li>הקמת חניונים, מדרכות וגדרות</li>
+    </ul>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2>הפרויקטים שלנו</h2>
+    <ul>
+      <li>מעונות בר אילן</li>
+      <li>ביג כרמי גת</li>
+      <li>פארק הים מגרש 9</li>
+      <li>אסותא תל אביב</li>
+      <li>כיכר המושבה</li>
+      <li>בניין חברת חשמל</li>
+    </ul>
+  </section>
+
+  <section class="clients" id="clients">
+    <h2>לקוחות נבחרים</h2>
+    <p>מנרב, סולל בונה, אלקטרה בנייה, עץ השקד, גב ים, אמריקה ישראל ועוד.</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>צור קשר</h2>
+    <p>טלפון:076-5404965</p>
+    <p>אימייל: gil@gilbon.co.il</p>
+    <p>כתובת: עתיר ידע 21 כפר סבא</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ג.י.ל.בון פיתוח בע"מ - כל הזכויות שמורות</p>
+  </footer>
+</body>
+</html>
